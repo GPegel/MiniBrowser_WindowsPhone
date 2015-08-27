@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="MiniBrowser.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiniBrowser"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock x:Name="textBlock" Margin="10,10,0,0" TextWrapping="Wrap" Text="MiniBrowser" VerticalAlignment="Top" FontSize="64"/>
+        <TextBox x:Name="URL" Margin="10,92,118,0" Text="http://www.gerhardpegel.nl" VerticalAlignment="Top"/>
+        <Button x:Name="Go" Content="Go" HorizontalAlignment="Right" Margin="0,82,0,0" VerticalAlignment="Top" Width="48" Height="58" Click="Go_Click"/>
+        <WebView x:Name="MiniBrowser" Margin="10,136,0,0"/>
+
+    </Grid>
+</Page>
