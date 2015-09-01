@@ -10,7 +10,7 @@
 
     <Grid>
         <TextBlock x:Name="textBlock" Margin="10,10,0,0" TextWrapping="Wrap" Text="MiniBrowser" VerticalAlignment="Top" FontSize="64"/>
-        <TextBox x:Name="URL" Margin="10,92,118,0" Text="http://www.gerhardpegel.nl" VerticalAlignment="Top"/>
+        <TextBox x:Name="URL" Margin="10,92,118,0" Text="http://www.google.com" VerticalAlignment="Top"/>
         <Button x:Name="Go" Content="Go" HorizontalAlignment="Right" Margin="0,82,0,0" VerticalAlignment="Top" Width="48" Height="58" Click="Go_Click"/>
         <WebView x:Name="MiniBrowser" Margin="10,136,0,0"/>
 
